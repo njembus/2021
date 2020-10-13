@@ -1,0 +1,44 @@
+.footer {
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    text-align: center;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.footer h3 {
+    color: green;
+}
+
+.span {
+    color: red;
+}
+
+.footer h4 {
+    color: red;
+}
+
+.footer h5 {
+    color: yellow;
+}
+
+.footer h6 {
+    color: antiquewhite;
+}
+
+.footer__sociaux {
+    color: rgb(245, 245, 239);
+    text-align: center;
+}
+
+.footer__sociaux a {
+    display: inline-block;
+    padding: 0 3px;
+    font-size: 25px;
+}
+
+.footer__sociaux a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}

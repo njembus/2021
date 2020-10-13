@@ -1,0 +1,69 @@
+.header.header__article {
+    height: 350px;
+}
+
+.header__article .header__texture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/css_coding-wallpaper-1366x768.jpg') center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.9;
+}
+
+.article__view-container {
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.article__view-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+}
+
+.article__view-subtitle {
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 0;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.article__view-content {
+    padding-top: 10px;
+    text-align: justify;
+    font-weight: 300;
+    padding-bottom: 30px;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    text-align: center;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.footer h3 {
+    color: green;
+}
+
+.footer h4 {
+    color: red;
+}
+
+.footer h5 {
+    color: yellow;
+}
+
+.footer__sociaux {
+    color: rgb(250, 245, 245);
+}
